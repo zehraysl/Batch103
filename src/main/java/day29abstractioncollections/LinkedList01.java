@@ -22,7 +22,7 @@ public class LinkedList01 {
         visitors.add("Brad");
         visitors.add("Pitt");
         visitors.add("Brad Pitt");
-        visitors.add(2,"Angelina Julie");
+        visitors.add(2, "Angelina Julie");
         visitors.add("Brad Pitt");
         visitors.add("Tom Hanks");
 
@@ -38,6 +38,5 @@ public class LinkedList01 {
         visitors.removeFirst();
         System.out.println(visitors);
 
-        System.out.println("eklendi");
     }
 }
