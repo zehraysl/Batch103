@@ -38,5 +38,6 @@ public class LinkedList01 {
         visitors.removeFirst();
         System.out.println(visitors);
 
+        System.out.println("silindi");
     }
 }
