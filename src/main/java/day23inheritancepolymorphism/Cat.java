@@ -20,10 +20,10 @@ public class Cat extends Mammal {
         return a * b + 1;
     }
 
-    @Override
-    public Mammal create() {
-        return new Mammal();
-    }
+//    @Override
+//    public Mammal create() {
+//        return new Mammal();
+//    }
 
 }
 
@@ -32,7 +32,7 @@ public class Cat extends Mammal {
         1)Override yaparken "method'un body" si degistirilir.
         2)Override yaparken ASLA method signature(isim ve parametre) degistirilemez.
         3)Override yaparken "inheritance" olmak zorundadir.
-        4)Override yaparken "access modifier" lar belli kurallara gor farklilastirilabilirler
+        4)Override yaparken "access modifier" lar belli kurallara gore farklilastirilabilirler
             i)"private" method'lar override edilemezler
             ii)Child Class'daki "override edilen" method'un access modifier'i Parent class'daki
                method'un access modifier'i ile ayni veya daha genis olmalidir.
@@ -42,7 +42,7 @@ public class Cat extends Mammal {
          5)Parent Class'daki methodun "return type" i void ise "return type" degistirilemez.
          6)Parent Class'daki methodun "return type" i primitive ise "return type" degistirilemez.
          7)Parent Class'daki methodun "return type" i Wrapper Class ise "return type" degistirilemez.
-       8)Parent Class'daki methodun "return type" i Parent Class ise "return type" child'lardan biri olabilir.
+         8)Parent Class'daki methodun "return type" i Parent Class ise "return type" child'lardan biri olabilir.
            Note: Child Class'daki return type Parent Class'dakinden genis olamaz.
            Note: Aralarinda "Parent Child" iliskisi olmayan Class'lar Overriding'de Return Type degisiminde
                  kullanilamazlar. Mesela "Short", "Integer"dan kucuktur, fakat ararlarinda "Parent Child" iliskisi

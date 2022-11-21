@@ -6,10 +6,7 @@ public class Animal  {
         System.out.println("Animals eat");
     }
 
-public int add(int a,int b){
-        return a+b;
-
-    }
+      public int add(int a,int b){return a+b;}
      public Integer multiply(int a,int b){
         return a*b;
      }

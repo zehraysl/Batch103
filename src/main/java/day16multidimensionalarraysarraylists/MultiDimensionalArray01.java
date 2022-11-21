@@ -35,8 +35,9 @@ public static void main(String[] args) {
 
         for(int[] w : brr){
         toplam = toplam + w.length;
+
         }
-        System.out.println(toplam);
+        System.out.println(toplam);//5
 
         int idx = 0;
         int crr[] = new int[toplam];

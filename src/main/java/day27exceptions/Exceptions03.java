@@ -28,7 +28,6 @@ public class Exceptions03 {
 
     //Verilen ismin ilk harfinin büyük olmaması durumunda Exception atan method yazınız.
     public static boolean checkNameFormat(String name) {
-
         if (name.charAt(0) >= 'A' && name.charAt(0) <= 'Z') {
             return true;
         } else {

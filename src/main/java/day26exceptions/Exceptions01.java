@@ -24,7 +24,7 @@ public class Exceptions01 {
             System.out.println("burasi try bolumu");
 
         }catch(NumberFormatException e){
-            System.out.println("Rakam olmayan karakter iceren String'ler Intrger'a cevrilemez.");
+            System.out.println("Rakam olmayan karakter iceren String'ler Integer'a cevrilemez.");
         }
         return i;
     }

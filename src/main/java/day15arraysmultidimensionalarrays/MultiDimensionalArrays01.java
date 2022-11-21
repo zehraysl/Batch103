@@ -23,7 +23,7 @@ public class MultiDimensionalArrays01 {
 //Multidimensional Array'lerde Array elemanlardan biri nasil yazdirilir?
         System.out.println(Arrays.toString(arr[1]));//[6,18]
         //Multidimensional Array'lerde ic Array'lerdeki elemanlar nasil yazdirilir?
-        System.out.println(arr[1][0]);
+        System.out.println(arr[1][0]);//6
 
         //Example: Bir String bir Multidimensional Array olusturunuz.Eleman ekleyiniz
         //toplam eleman sayisini ekrana yazdiran kodu ekrana yazdiriniz.

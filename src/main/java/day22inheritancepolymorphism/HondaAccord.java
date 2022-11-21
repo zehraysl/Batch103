@@ -11,6 +11,9 @@ public class HondaAccord extends Honda{
      4)Bir Class'da birden fazla Constructor olabilir. Fakat bu constructor'ların parametreleri farklı olmalıdır.
      5)"this" keyword "Bu Class" anlamındadır. "this.price" demek bu Class'daki "price" isimli variable demektir.
        "this.price" syntax'i constructor'ların içinde kullanılır.
+       6)Conctructor kullanarak variable'lar uzerinde yaptiginiz degisimler sadece Object uzerindeki variable'larin degerlerini degistirir.
+          Class daki variable degerlerini degistiremez...
+
   */
     public int price;
     public int year;

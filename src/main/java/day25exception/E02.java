@@ -16,7 +16,7 @@ public class E02 {
 
         }catch(ArrayIndexOutOfBoundsException e){
             //Bu benim teknik olamayan aciklamam.
-            System.out.println("Array indexte bir problem meydana geldi"+e.getMessage());
+            System.out.println("Array indexte bir problem meydana geldi "+e.getMessage());
             //Exception ile ilgili detaylica mesaj verir.
             e.printStackTrace();
             System.err.println("Array indexte bir problem meydana geldi");
